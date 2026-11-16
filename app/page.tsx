@@ -6,12 +6,14 @@ import { Footer } from '@/components/footer'
 
 export default function Page() {
   return (
-    <main className="bg-black/70">
+    <div className="bg-black/70">
       <Header />
-      <Hero />
-      <Features />
-      <CTA />
+      <main>
+        <Hero />
+        <Features />
+        <CTA />
+      </main>
       <Footer />
-    </main>
+    </div>
   )
 }

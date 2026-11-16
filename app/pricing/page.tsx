@@ -60,13 +60,14 @@ export default function PricingPage() {
   ]
 
   return (
-    <main className="bg-black/70 min-h-screen">
+    <div className="bg-black/70 min-h-screen">
       <Header />
+      <main>
       
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-6 text-balance">
+          <h1 className="text-4xl min-[390px]:text-5xl md:text-6xl font-serif font-bold text-white mb-6 text-balance">
             Simple, Transparent Pricing
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
@@ -160,7 +161,8 @@ export default function PricingPage() {
         </div>
       </section>
 
+      </main>
       <Footer />
-    </main>
+    </div>
   )
 }

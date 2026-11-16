@@ -10,9 +10,9 @@ export default function AboutPage() {
   const router = useRouter()
 
   return (
-    <main className="bg-black/70 min-h-screen">
+    <div className="bg-black/70 min-h-screen">
       <Header />
-      
+      <main>
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto">
@@ -89,7 +89,8 @@ export default function AboutPage() {
         </div>
       </section>
 
+      </main>
       <Footer />
-    </main>
+    </div>
   )
 }
